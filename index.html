@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>LeHoang | Bio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title></title>
 
+  <link rel="stylesheet" type="text/css" href="styles.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="icon" type="image/x-icon" href="./assets/favico/default.ico">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="stylesheet" href="./assets/css/tilt-effect.css">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-
-  <!-- JS Lib -->
   <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/tilt-effect.css">
 </head>
 
 <body>
 
-  <!-- TERMINAL -->
   <div id="terminal">
     <div id="terminal-header">
       <div id="terminal-buttons">
@@ -38,14 +33,11 @@
     </div>
   </div>
 
-  <!-- VIDEO BACKGROUND -->
   <div id="video-background">
     <video autoplay muted loop id="myVideo">
       <source src="./assets/back/default.mp4" type="video/mp4">
-      Your browser does not support HTML5 video.
     </video>
 
-    <!-- AUDIO -->
     <div id="audio-background">
       <div id="music-controls">
         <input type="range" id="volume-slider" min="0" max="100" value="50">
@@ -58,7 +50,6 @@
 
   <div id="video-overlay"></div>
 
-  <!-- MAIN CARD -->
   <div id="blurred-box" class="tilt-element">
 
     <img id="profile-picture" src="./assets/pfp/default.png" alt="Profile Picture">
@@ -69,28 +60,23 @@
       <span id="typing-cursor">|</span>
     </p>
 
-    <!-- BADGES -->
     <div class="badges-container">
-      <img src="./assets/badge/developer.png" alt="developer">
-      <img src="./assets/badge/verified.png" alt="verified">
+      <img src="./assets/badge/developer.png" alt="dev badge">
+      <img src="./assets/badge/verified.png" alt="verified badge">
     </div>
 
-    <!-- LANG -->
     <div class="lang-container">
       <img src="./assets/logo/python.png" alt="python">
       <img src="./assets/logo/img_js.png" alt="javascript">
     </div>
 
-    <!-- DESCRIPTION -->
     <div class="user-description">
       <p id="user-description" style="color: white;">
         Hello everyone, I'm LeHoang,<br>
-        a new coder with limited experience.<br>
-        I want to learn more from the internet and improve my skills.
+        a new coder with limited experience. I want to learn more from the internet and improve my skills.
       </p>
     </div>
 
-    <!-- DISCORD WIDGET -->
     <div class="discord-widget">
       <div class="discord-content">
         <div class="discord-icon">
@@ -118,29 +104,27 @@
       </div>
     </div>
 
-    <!-- LINKS -->
+    <!-- LINKS (ĐÃ SỬA) -->
     <div class="links">
 
-      <!-- GitHub -->
-      <a href="https://github.com/LeHoang211" target="_blank">
-        <i class="fa-brands fa-github"></i>
+      <!-- Discord -->
+      <a href="http://discordapp.com/users/875062909498175558" target="_blank">
+        <i class="fa-brands fa-discord"></i>
       </a>
 
       <!-- Roblox -->
-      <a href="https://www.roblox.com/users/ROBLOX_ID/profile" target="_blank">
-        <i class="fa-solid fa-gamepad"></i>
-      </a>
-
-      <!-- Discord -->
-      <a href="https://discordapp.com/users/875062909498175558" target="_blank">
-        <i class="fa-brands fa-discord"></i>
+      <a href="https://www.roblox.com/users/ID/profile" target="_blank">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Roblox_Logo.svg"
+          alt="Roblox"
+          class="roblox-icon">
       </a>
 
     </div>
 
   </div>
 
-  <!-- SCRIPTS -->
+  <!-- JS -->
   <script src="./assets/js/lanyard.js"></script>
   <script src="./assets/js/discord.js"></script>
   <script src="./assets/js/script.js"></script>
