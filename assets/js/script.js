@@ -198,8 +198,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   Promise.all([ipPromise, osPromise])
       .then(([ipAddress, operatingSystem]) => {
-          terminalTextContent[1] = "IP: " + ipAddress;
-          terminalTextContent[2] = "System: " + operatingSystem;
+          terminalTextContent[1] = "You IP: " + ipAddress;
+          terminalTextContent[2] = "You System: " + operatingSystem;
           
           typeWriter();
       });
